@@ -2,6 +2,8 @@ const startBtn = document.querySelector('[data-start]')
 const stopBtn = document.querySelector('[data-stop]')
 const bodyEl = startBtn.parentNode
 
+let timerId = null
+
 stopBtn.disabled = true
 
 startBtn.addEventListener('click', startStyles)

@@ -16,3 +16,32 @@ img {
   display: block;
   max-width: 100%;
 }
+
+
+.form button {
+  background-color: rgb(139, 157, 204);
+  border-radius: 4px;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  width: 150px;
+}
+
+.form button:hover,
+.form button:focus {
+  background-color: rgb(64, 92, 163);
+  color: gold;
+}
+.form input {
+  background-color: rgb(227, 229, 95);
+    color:  rgb(64, 92, 163);
+  border-radius: 4px;
+  height: 30px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.form input:hover,
+.form input:focus {
+   background-color: gold;
+}
